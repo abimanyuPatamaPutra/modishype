@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact - MODIS HYPE</title>
+    <style>
+        /* Gaya untuk tombol kembali */
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #d3d3d3; /* Warna abu-abu */
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Tombol Kembali -->
+     <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo_v5-removebg-preview.png" alt="MODIS HYPE Logo">
+                <h1>MODIS HYPE</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Terima kasih telah mengunjungi toko online kami. Jika Anda memiliki pertanyaan, komentar, atau memerlukan bantuan, silakan hubungi kami melalui salah satu metode di bawah ini. Kami akan dengan senang hati membantu Anda.</p>
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <h3>Send us a message</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form> 
+                </div>
+                <div class="contact-info" >
+                    <h3>Contact Information</h3>
+                    <p><i class="fa-solid fa-phone"></i>    +62 000 000</p> 
+                    <p><i class="fa-solid fa-envelope"></i>     xxxxx@gmail.com</p>
+                    <p><i class="fa-solid fa-map-pin"></i>     Karawang, Karawang, Karawang</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MODIS HYPE. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="darkmode.js"></script>
+    <script>
+        function goHome() {
+            window.location.href = 'index.html'; // Ganti 'index.html' dengan URL halaman home Anda
+        }
+    </script>
+</body>
+</html>
